@@ -1,0 +1,34 @@
+{
+    "signingId": "1823d4e8-d7d4-411b-aded-49797116606e",
+    "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+    "signingPremiums": [
+        {
+            "signingPremiumId": "41e6108d-1504-4888-b8dc-3ea15318da48",
+            "signingId": "1823d4e8-d7d4-411b-aded-49797116606e",
+            "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+            "premiumId": "ba717845-9d19-4843-bdfa-6ff2e7d96ee3",
+            "sectionNumber": 1,
+            "riskCode": "1",
+            "premiumNarrative": "testOP",
+            "originalCurrency": {
+                "refTypeCurrencyId": "59e075e9-67b6-4c7e-985e-2fbfc0e05dec",
+                "typeOfCurrency": "CLF"
+            },
+            "premiumNet": 1999.69,
+            "transaction": {
+                "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+                "typeOfTransactionType": "Premium"
+            },
+            "bsnd": "17489 09022024",
+            "csnd": "17489 09022024",
+            "csn": "17489",
+            "csd": "2024-02-09T09:57:34.790417576Z",
+            "csnVersion": 1,
+            "bsn": "17489",
+            "bsd": "2024-02-09T09:57:34.790417576Z",
+            "bsnVersion": 1,
+            "signingMessage": "Hardcoded signing via the patch API",
+            "recordStatusCode": "Active"
+        }
+    ]
+}

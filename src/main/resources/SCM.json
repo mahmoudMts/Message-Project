@@ -1,0 +1,279 @@
+{
+	"interchangeHeaderUNB": {
+		"syntax": {
+			"syntaxVersionNumber": "2"
+		},
+		"interchangeSender": {
+			"senderIdentification": "GBLUW   .LPC001  ",
+			"reverseRoutingAddress": "LPC004"
+		},
+		"interchangeReceiver": {
+			"recipientIdentification": "GBAVI   .AVI001  "
+		},
+		"dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+		"interchangeControlReference": "13",
+		"recipientReferencePassword": "ABCD123",
+		"applicationReference": "ILUCSB",
+		"processingPriorityCode": "X",
+		"acknowledgmentRequest": "1",
+		"comunicationAgreementID": "CANDE",
+		"testIndicator": "0"
+	},
+	"messagePayload": [
+		{
+			"id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+			"DTMAarray": [
+				{
+					"accountingMonth": "2006-01-05",
+					"messageAccountingMonth": "2006-01-05",
+					"monthEndDate": "2006-01-05"
+				}
+			],
+			"GR1Container": [
+				{
+					"rffDetails": [
+						{
+							"lloydsClaimReference": "03034076V",
+							"originatingClaimOfficeRefsClaimOffice": "N40003620206",
+							"uniqueMarketReference": "B099912345789012",
+							"bureauOriginalSigningRef": "2021100717763",
+							"externalAdjusterReference": "2021100717763",
+							"lawyerReference": "2021100717763",
+							"uniqueClaimReference": "B133810042860"
+						}
+					],
+					"nadDetails": [
+						{
+							"lloydsLeaderIdentification": "999",
+							"brokerNumber": "999",
+							"brokerPseudonym": "ZZZ",
+							"brokerTelephoneNumber": "12345678",
+							"brokerContactName": "John Smith",
+							"externalAdjuster": "John Smith",
+							"lawyer": "John Smith "
+						}
+					],
+					"pinDetails": [
+						{
+							"slipOrder": 100,
+							"bureauShare": 100
+						}
+					],
+					"piaDetails": [
+						{
+							"yearOfAcc": "string",
+							"signedInd": "S",
+							"basisOfCover": "R",
+							"claimTypeCode": "R/I",
+							"blockIndicator": "Y",
+							"warIndicator": "N",
+							"filCode2": "OA",
+							"filMarketCode": "AA",
+							"catastropheCode": "tbc",
+							"riskCode": "KG",
+							"propertyClaimsServicesCode": "tbc",
+							"statusCode": "0"
+						}
+					],
+					"perDetails": [
+						{
+							"periodOfPolicyFromDate": "2007-07-30",
+							"periodOfPolicyToDate": "2007-07-30",
+							"periodOfCoverFromDate": "2007-07-30",
+							"periodOfCoverToDate": "2007-07-30",
+							"lossDateFrom": "2006-07-28",
+							"lossDateTo": "2007-07-31",
+							"dateClaimMadeFrom": "2006-07-28",
+							"dateClaimMadeTo": "2007-07-31"
+						}
+					],
+					"txtDetails": [
+						{
+							"lossDateNarrative": "VARS",
+							"vesselAircraftConveyance": "MS MISS MS ",
+							"perils": "NON MARINE",
+							"interest": "NON MARINE",
+							"principalInsured": "VARIOUS ",
+							"limitsInsValue": "AUD 500K ",
+							"dateClaimMadeNarrative": "VARS.",
+							"location": "LondonFactory",
+							"lossLocation": "SW11PD,London UK"
+						}
+					],
+					"ftxDetails": [
+						{
+							"textSubjectCode": "AA",
+							"textFunctionCode": "AA",
+							"lossDetails": {
+								"lossDetails1": "BLOCK FOR ALL LOSSES N/E AUD100,000",
+								"lossDetails2": "BLOCK FOR ALL LOSSES N/E AUD100,000",
+								"lossDetails3": "BLOCK FOR ALL LOSSES N/E AUD100,000",
+								"lossDetails4": "BLOCK FOR ALL LOSSES N/E AUD100,000",
+								"lossDetails5": "BLOCK FOR ALL LOSSES N/E AUD100,000",
+								"extendedLossDetailsParaRef": "AA",
+								"extendedLossDetails": {
+									"extendedLossDetails1": "tbc",
+									"extendedLossDetails2": "tbc",
+									"extendedLossDetails3": "tbc",
+									"extendedLossDetails4": "tbc",
+									"extendedLossDetails5": "tbc",
+									"extendedPolicyDetails": {
+										"extendedPolicyDetails1": "INS VARIOUS  C/H ABC PTY LIMITED",
+										"extendedPolicyDetails2": "INS VARIOUS  C/H ABC PTY LIMITED",
+										"extendedPolicyDetails3": "INS VARIOUS  C/H ABC PTY LIMITED",
+										"extendedPolicyDetails4": "INS VARIOUS  C/H ABC PTY LIMITED",
+										"extendedPolicyDetails5": "INS VARIOUS  C/H ABC PTY LIMITED",
+										"extendedPolicyDetailsParaRef": "AA"
+									}
+								}
+							}
+						}
+					],
+					"gR3Container": [
+						{
+							"group3RFF": {
+								"bureauPrimaryClaimReference": "N40200621004"
+							},
+							"group4Container": [
+								{
+									"Group4RFFContainer": [
+										{
+											"compSyndsClaimReference": "REF999999999Z",
+											"syndLineSequenceNumber": "1"
+										}
+									],
+									"group4NAD": {
+										"companySyndIdentification": "999"
+									},
+									"group4PIN": {
+										"companySyndLinePercentage": 99.00002
+									}
+								}
+							]
+						}
+					],
+					"gR6Container": [
+						{
+							"cuxDetails": {
+								"originalCurrencyCode": "AUD"
+							},
+							"ftxDetails": {
+								"transactionalDetails": {
+									"transactionalDetails1": "FMT/SL/USL1/MI / / /US 1",
+									"transactionalDetails2": "FMT/SL/USL1/MI / / /US 2",
+									"transactionalDetails3": "FMT/SL/USL1/MI / / /US 3",
+									"transactionalDetails4": "FMT/SL/USL1/MI / / /US 4",
+									"transactionalDetails5": "FMT/SL/USL1/MI / / /US 5"
+								}
+							},
+							"dtmDetails": {
+								"dataLastSeen": "2006-01-05"
+							},
+							"rffDetails": [
+								{
+									"brokerReference1": "ABC1234",
+									"brokerReference2": "CDE5678"
+								}
+							],
+							"group7Container": [
+								{
+									"cuxDetails": {
+										"settlementCurrencyCode": "GBP"
+									},
+									"piaDetails": {
+										"bureauPrimaryClaimRefBPR": "N60010440206",
+										"countryCodeCDE": "US",
+										"trustFundCodeTRF": "SL",
+										"fILCodeFFL": "USL1",
+										"stateOfOriginCodeSTA": "MI",
+										"naiccCodePrefixNAI": "C",
+										"naicReinsuredCodeNAI": "1000"
+									},
+									"group8Container": [
+										{
+											"rffDetails": [
+												{
+													"currencyKey": "AUD",
+													"movementReference": "AC0206"
+												}
+											],
+											"nadDetails": {
+												"bureauChecker": ""
+											},
+											"traDetails": [
+												{
+													"leadingEstimate": "1000.00",
+													"leadingEstimateQualifier": "N",
+													"currentNettOSI": "1000.00",
+													"currentNettOSIIndicator": "Y",
+													"currentNettOSF": "1000.00",
+													"currentNettOSFIndicator": "Y",
+													"currentNettOSQ": "1000.00",
+													"currentNettOSQIndicator": "M",
+													"paidToDatePSI": "1000.00",
+													"paidToDatePDI": "1000.00",
+													"paidToDatePDF": "1000.00",
+													"exchangeRate": 100,
+													"highestEstimate": "1000.00",
+													"leadingHighestEstimate": "1000.00"
+												}
+											],
+											"ftxDetails": {
+												"textSubjectCode": "AA",
+												"textFunctionCode": "AA",
+												"currentNarrative": {
+													"currentNarrative1": "FTXD CTN RESERVE IRO SEP 05 BORD",
+													"currentNarrative2": "FTXD CTN RESERVE IRO SEP 05 BORD"
+												}
+											},
+											"group9Container": [
+												{
+													"RFFDetails": {
+														"bureauSigningReference": "2006020520000"
+													},
+													"PIADetails": {
+														"accountingType": "U",
+														"previouslyPaidIndicator": "Y",
+														"lossReserveInterestIndicator": "N",
+														"advancePaymentIndicator": "Y"
+													},
+													"TRADetails": [
+														{
+															"settledThisTimeSTI": "1000.00",
+															"settledThisTimeSTF": "1000.00",
+															"exchangeRate": 1000
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"TrailerUNS": {
+				"sectionIdentification": "S"
+			},
+			"TrailerTRAArray": [
+				{
+					"paidToDatePIM": "1000.00",
+					"paidToDatePFM": "1000.00",
+					"settledThisTimeSIM": "1000.00",
+					"settledThisTimeSFM": "1000.00",
+					"compSyndLinePercentage": 99.0000002,
+					"currentNettOIM": "1000.00",
+					"currentNettOFM": "1000.00",
+					"settledThisTimeSNI": "1000.00",
+					"settledThisTimeSNF": "1000.00"
+				}
+			]
+		}
+	],
+	"audit": {
+		"user": "svc99",
+		"at": "2021-03-03T08:24:51Z"
+	}
+}

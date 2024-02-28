@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Appenders>
+    <Console name="STDOUT" target="SYSTEM_OUT" follow="true">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <!-- This file appender is provided as an example -->
+    <!--
+    <RollingFile name="FILE" fileName="${logfile.path}/edi-messages-new.log" filePattern="${logfile.path}/edi-messages-new.log.%i">
+      <Policies>
+        <SizeBasedTriggeringPolicy size="500 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="2"/>
+      <PatternLayout pattern="%d [%t] %-5p%c - %m%n">
+        <replace regex=":basic-auth \\[.*\\]" replacement=":basic-auth [redacted]"/>
+      </PatternLayout>
+    </RollingFile>
+    -->
+  </Appenders>
+
+  <Loggers>
+    <Logger name="com.lm.data.edi" level="DEBUG"/>
+    <Logger name="org.apache.hc.client5.http.impl.classic" level="TRACE"/>
+
+    <Root level="WARN">
+      <AppenderRef ref="STDOUT"/>
+    </Root>
+  </Loggers>
+</Configuration>

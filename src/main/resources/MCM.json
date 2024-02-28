@@ -1,0 +1,137 @@
+{
+    "interchangeHeaderUNB": {
+        "syntax": {
+            "syntaxVersionNumber": "2"
+        },
+        "interchangeSender": {
+            "senderIdentification": "GBLUW   .LPC001  ",
+            "reverseRoutingAddress": "LPC004"
+        },
+        "interchangeReceiver": {
+            "recipientIdentification": "GBAVI   .AVI001  "
+        },
+        "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+        "interchangeControlReference": "13",
+        "recipientReferencePassword": "ABCD123",
+        "applicationReference": "ILUCSB",
+        "processingPriorityCode": "X",
+        "acknowledgmentRequest": "1",
+        "comunicationAgreementID": "CANDE",
+        "testIndicator": "0"
+    },
+    "payload": [
+        {
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "bgmDetails": {
+                "segmentTag": "BGM",
+                "messageName": "CON",
+                "userNumber": "1234"
+            },
+            "dateTimeDetails": {
+                "segmentTag": "DTM",
+                "dateTimeQualifier": "CMP",
+                "controlMessagePeriod": "2004-02-29",
+                "yearOfAccount": "2003-11-30"
+            },
+            "Group1Containers": [
+                {
+                    "nameandAddressDetails": {
+                        "segmentTag": "NAD",
+                        "nameAndAddressQualifier": "SYN",
+                        "partyIdentificationCoded": "123"
+                    },
+                    "Group2Container": [
+                        {
+                            "dateTimeDetail": {
+                                "segmentTag": "DTM",
+                                "dateTimeQualifier": "CMP",
+                                "controlMessagePeriod": "2004-02-29",
+                                "yearOfAccount": "2003-11-30"
+                            },
+                            "Group3Container": [
+                                {
+                                    "gisDetails": {
+                                        "segmentTag": "GIS",
+                                        "processingIndicatorAuditOrRiskCode": "0",
+                                        "processingIndicatorBusinessCategoryCode": "PRM",
+                                        "gisQualifier": "NAC"
+                                    },
+                                    "separatorDetails": {
+                                        "segmentTag": "SEP",
+                                        "separatorId": "1"
+                                    },
+                                    "Group4Containers": [
+                                        {
+                                            "gisDetails": {
+                                                "segmentTag": "GIS",
+                                                "processingIndicatorAuditOrRiskCode": "0",
+                                                "processingIndicatorBusinessCategoryCode": "PRM",
+                                                "gisQualifier": "NAC"
+                                            },
+                                            "moaDetailsArray": [
+                                                {
+                                                    "segmentTag": "MOA",
+                                                    "monetoryAmountQualifier": "NCR",
+                                                    "amount": "123.56",
+                                                    "currency": "GBP"
+                                                }
+                                            ],
+                                            "cntDetails": {
+                                                "segmentTag": "CNT",
+                                                "controlQualifier": "TXN",
+                                                "transactionCount": "1"
+                                            }
+                                        }
+                                    ],
+                                    "moaDetails": [
+                                        {
+                                            "segmentTag": "MOA",
+                                            "monetoryAmountQualifier": "NCR",
+                                            "amount": "123.56",
+                                            "currency": "GBP"
+                                        }
+                                    ],
+                                    "cntDetails": {
+                                        "segmentTag": "CNT",
+                                        "controlQualifier": "TXN",
+                                        "transactionCount": "1"
+                                    }
+                                }
+                            ],
+                            "moaDetails": [
+                                {
+                                    "segmentTag": "MOA",
+                                    "monetoryAmountQualifier": "NCR",
+                                    "amount": "123.56",
+                                    "currency": "GBP"
+                                }
+                            ],
+                            "cntDetails": {
+                                "segmentTag": "CNT",
+                                "controlQualifier": "TXN",
+                                "transactionCount": "1"
+                            }
+                        }
+                    ],
+                    "moaDetails": [
+                        {
+                            "segmentTag": "MOA",
+                            "monetoryAmountQualifier": "NCR",
+                            "amount": "123.56",
+                            "currency": "GBP"
+                        }
+                    ],
+                    "cntDetails": {
+                        "segmentTag": "CNT",
+                        "controlQualifier": "TXN",
+                        "transactionCount": "1"
+                    }
+                }
+            ],
+            "audit": {
+                "user": "svc99",
+                "at": "2021-03-03T08:24:51Z"
+            }
+        }
+    ]
+}

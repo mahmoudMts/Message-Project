@@ -1,0 +1,106 @@
+{
+    "premiumId": "ba717845-9d19-4843-bdfa-6ff2e7d96ee3",
+    "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+    "riskCode": "1",
+    "premiumNumber": 1,
+    "premiumSource": "TechnicianPortal",
+    "transactionType": {
+        "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+        "typeOfTransactionType": "Premium"
+    },
+    "premiumNarrative": "testOP",
+    "slip": {
+        "order1": 15
+    },
+    "eeaRiskFlag": false,
+    "brokerRef1": "brokerRef1",
+    "countryOfOrigin": {
+        "refTypeCountryId": "c52d2025-9a9a-4b18-8b33-4cceb42e9a99",
+        "typeOfCountry": "DZ"
+    },
+    "stateCode": {},
+    "dtiCode": {
+        "refDTICodeId": "10de8a45-3ff1-4da9-995b-f868e0b9ee30",
+        "typeOfDTICode": "4"
+    },
+    "vatCode": {
+        "refTypeOfVatCode": "688cf98f-1dc0-43c9-b92b-a25221f5028f",
+        "typeOfVatCode": "704"
+    },
+    "qualCatCode": {
+        "refQualCatCodeId": "521ecc00-0651-4d12-b0ee-0583273e9d6d",
+        "typeOfQualCatCode": "F"
+    },
+    "sumInsuredMax": {
+        "currency": {
+            "refTypeCurrencyId": "5e1b80ee-90fc-437e-ac75-58dccd8c03c2",
+            "typeOfCurrency": "ALL"
+        },
+        "amount": 90000
+    },
+    "originalCurrency": {
+        "refTypeCurrencyId": "59e075e9-67b6-4c7e-985e-2fbfc0e05dec",
+        "typeOfCurrency": "CLF"
+    },
+    "bureauLinePercent": 90,
+    "grossPremium": 2000,
+    "grossPremiumPercent": 50,
+    "prem100pcnt": 100,
+    "deductions": {
+        "brokerage": 10,
+        "tax": 8,
+        "taxBasis": "Net",
+        "other": 10,
+        "otherBasis": "Net",
+        "total": 20,
+        "taxIndicator": false
+    },
+    "ukIPT": {
+        "rate": 5,
+        "taxablePremium": 10,
+        "amount": 30000
+    },
+    "overseasIPT": {
+        "amount": 40000
+    },
+    "exchangeRate": 90,
+    "settlementCurrency": {
+        "refTypeCurrencyId": "979c2843-addd-4601-88f7-c0f910d2eb8f",
+        "typeOfCurrency": "CAD"
+    },
+    "premiumNet": 1999.69,
+    "war": {
+        "code": {}
+    },
+    "fil": {
+        "code1": {
+            "refFilId": "4c2371ca-d194-4c2f-a648-44fa7ce1a343",
+            "typeOfFilCode": "AAA3"
+        },
+        "currency1": {},
+        "code2": {},
+        "currency2": {}
+    },
+    "trustFundCode": {
+        "refTrustFundId": "ba7a2ad0-ab6d-434d-821d-43b02bb96979",
+        "typeOfTrustFundCode": "CN"
+    },
+    "delink": {
+        "releaseFlag": "Cash"
+    },
+    "chargesIndicator": false,
+    "accountingType": "Non-Cash",
+    "brexitFlag": false,
+    "depositPremium": {},
+    "grossPremSplit": {},
+    "fireBrigade": {},
+    "aprp": {},
+    "revisedPolPeriod": {},
+    "revisedPremPeriod": {},
+    "revisedSlip": {},
+    "legislationChild": {},
+    "createdDate": "2024-02-09T09:53:22.555024847Z",
+    "lastUpdatedDate": "2024-02-09T09:56:24.560795253Z",
+    "contractPolicyPeriodFrom": "2020-01-10",
+    "yearOfAccount": 2020
+}

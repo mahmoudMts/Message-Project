@@ -1,0 +1,60 @@
+{
+  "interchangeHeaderUNB": {
+    "syntax": {
+      "syntaxVersionNumber": "2"
+    },
+    "interchangeSender": {
+      "senderIdentification": "GBLUW   .LPC001  ",
+      "reverseRoutingAddress": "LPC004"
+    },
+    "interchangeReceiver": {
+      "recipientIdentification": "GBAVI   .AVI001  "
+    },
+    "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+    "interchangeControlReference": "13",
+    "recipientReferencePassword": "ABCD123",
+    "applicationReference": "ILUCSB",
+    "processingPriorityCode": "X",
+    "acknowledgmentRequest": "1",
+    "comunicationAgreementID": "CANDE",
+    "testIndicator": "0"
+  },
+  "messagePayload": [
+    {
+      "headerDetailsBroker": {
+        "brokerNumber": "1234",
+        "reportDate": "2004-02-25"
+      },
+      "group1Array": [
+        {
+          "generalIndicatorArray": [
+            {
+              "itemStatusCode": "DEL"
+            }
+          ],
+          "nameAndAddressArray": [
+            {
+              "movementOriginator": "A"
+            }
+          ],
+          "referencesArrayBroker": [
+            {
+              "uniqueMarketReference": "B1526CSINT1600008",
+              "transactionReference": "B12345678901",
+              "lloydsItemNumber": "A1234",
+              "bureauSigningReference": "2021100717763",
+              "brokerReference1": "TL168221",
+              "brokerReference2": "TL168221345",
+              "bureauUniqueReference": "123456789098A",
+              "groupReference": "N12345678900"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "user": "svc99",
+    "at": "2021-03-03T08:24:51Z"
+  }
+}

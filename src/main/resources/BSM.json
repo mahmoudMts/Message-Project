@@ -1,0 +1,98 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "interchangeHeaderUNB": {
+    "syntax": {
+      "syntaxVersionNumber": "2"
+    },
+    "interchangeSender": {
+      "senderIdentification": "GBLUW   .LPC001  ",
+      "reverseRoutingAddress": "LPC004"
+    },
+    "interchangeReceiver": {
+      "recipientIdentification": "GBAVI   .AVI001  "
+    },
+    "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+    "interchangeControlReference": "13",
+    "recipientReferencePassword": "ABCD123",
+    "applicationReference": "ILUCSB",
+    "processingPriorityCode": "X",
+    "acknowledgmentRequest": "1",
+    "comunicationAgreementID": "CANDE",
+    "testIndicator": "0"
+  },
+  "messagePayload": [
+    {
+      "headerGroup": {
+        "bureauId": "L",
+        "groupBrokerNumber": "0001",
+        "processingDate": "2004-02-29",
+        "messageSequenceNumber": "0001"
+      },
+      "brokerDetailsContainers": [
+        {
+          "brokerDetails": {
+            "brokerNumber": "0511"
+          },
+          "group1SegmentContainer": [
+            {
+              "headerCurrency": {
+                "settlementCurrency": "GBP"
+              },
+              "signingDetailsContainer": [
+                {
+                  "signingDetails": {
+                    "uniqueMarketReference": "FINMW2150123",
+                    "uniqueTransactionReference": "0",
+                    "brokerReference1": "FINMW2150123",
+                    "brokerReference2": "C/7601688",
+                    "brokerContactName": "ABCDE XYOCKWELL",
+                    "brokerContactTelephone": "+386394290",
+                    "entryType": "AAP",
+                    "closingCurrency": "GBP",
+                    "exchangeRate": "0001",
+                    "tabulationNumber": "PRM0701",
+                    "bureauSigningreference": "0001",
+                    "bureauOriginalReference": "0001",
+                    "nameOfCompany": "LLoyds",
+                    "underwritingYear": "23",
+                    "instalmentType": "C",
+                    "numberOfInstalments": "12",
+                    "instalmentNumber": "01",
+                    "instalmentDate": "2004-02-24",
+                    "settlementDueDate": "2004-02-26",
+                    "actualPaymentDate": "2004-02-29",
+                    "plannedSettlementDate": "2004-03-29",
+                    "netAmountClosing": "1000",
+                    "netAmountSettlementCurrency": "100.25",
+                    "closingLPCBureauShare": "100.25",
+                    "bureauShareSettlement": "0",
+                    "bureauTreatyNumber": "00001000",
+                    "accountingType": "W",
+                    "lateTradeTerms": "000",
+                    "daysLate": "100",
+                    "monthsLate": "100"
+                  },
+                  "splitSigningDetailsContainer": [
+                    {
+                      "settlementCompanyShare": "0000000000",
+                      "settlementType": "A",
+                      "closingCompanyShare": "0001",
+                      "companyIdentification": "341101",
+                      "companyReference1": "RFR1",
+                      "companyReference2": "RFR2",
+                      "actualPaymentDate": "2004-02-29"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "user": "svc99",
+    "at": "2021-03-03T08:24:51Z"
+  }
+}

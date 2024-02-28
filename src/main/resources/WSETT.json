@@ -1,0 +1,170 @@
+{
+  "messagePayload": [
+    {
+      "wholeMessageHeader": {
+        "carrierName": "CompanyABC",
+        "messageNo": "4792",
+        "lastDate": "2021-07-28",
+        "currentDate": "2021-07-29",
+        "carrierIdentificationGroupCode": "A39"
+      },
+      "settlementDataDetails": {
+        "M01Record": {},
+        "WSETTM08SettlementContainers": [
+          {
+            "settlementCurrencyISOCode": "CAD",
+            "settlementCurrencyILUCode": "C$",
+            "M02RecordsNumberForCurrency": "32",
+            "centralSettlementCashAmountTotal": "-186.83",
+            "centralSettlementDeferredAmountTotal": "642238.22",
+            "centralSettlementReserveReleaseAmountTotal": "0",
+            "centralSettlementTTYStatementAmountTotal": "0",
+            "centralSettlementClaimAmountTotal": "-1629.65",
+            "nonCentralSettlementCashAmountTotal": "0",
+            "nonCentralSettlementDeferredAmountTotal": "0",
+            "nonCentralSettlementReserveReleaseAmountTotal": "0",
+            "nonCentralSettlementTTYStatementAmountTotal": "0",
+            "nonCentralSettlementClaimAmountTotal": "0",
+            "companyIdentificationDSIGNGroupCode": "A39",
+            "WSETTM07SettlementContainers": [
+              {
+                "settlementCurrencyISOCode": "CAD",
+                "settlementCurrencyILUCode": "C$",
+                "brokerCodeShort": "775",
+                "M02RecordsNumberPerCurrencyAndBroker": "28",
+                "centralSettlementCashAmountTotal": "0",
+                "centralSettlementDeferredAmountTotal": "611492.66",
+                "centralSettlementReserveReleaseAmountTotal": "0",
+                "centralSettlementTTYStatementAmountTotal": "0",
+                "centralSettlementClaimAmountTotal": "-101",
+                "nonCentralSettlementCashAmountTotal": "0",
+                "nonCentralSettlementDeferredAmountTotal": "0",
+                "nonCentralSettlementReserveReleaseAmountTotal": "0",
+                "nonCentralSettlementTTYStatementAmountTotal": "0",
+                "nonCentralSettlementClaimAmountTotal": "0",
+                "brokerCode": "A775",
+                "carrierIdentificationCode": "A39",
+                "carrierIdentificationDSIGNGroupCode": "A39",
+                "WSETTM02Array": [
+                  {
+                    "carrierIdentificationCode": "A3904",
+                    "carrierReference": "P0AEWEX21A0V",
+                    "carrierShortName": "COMPY RE CAN",
+                    "brokerShortCode": "775",
+                    "brokerReference": "TL168221",
+                    "brokerShortName": "BROKER A LIMITED",
+                    "settlementCurrencyILUCode": "C$",
+                    "settlementCurrencyISOCode": "CAD",
+                    "policySigningAccountingOfficeNumber": "P2102190060576",
+                    "entryType": "PM",
+                    "carriersProportionAmountOriginalCurrency": "11687.5",
+                    "carriersProportionAmountSettlementCurrency": "11687.5",
+                    "defferedPaymentIndicator": "D",
+                    "settledInOriginalCurrencyIndicator": "Y",
+                    "originalCurrencyILUCode": "CAD",
+                    "originalCurrencyISOCode": "CAD",
+                    "centralSettlementIndicator": "Y",
+                    "settlementActualPaymentDate": "2021-08-21",
+                    "settlementPeriodStartDate": "2021-07-21",
+                    "settlementPeriodEndDate": "2021-07-21",
+                    "carrierSecondaryReference": "noExample1234",
+                    "nettInstalmentDateOn": "2021-07-31",
+                    "brokerSecondaryReference": "184778860002",
+                    "brokerCode": "A775",
+                    "carrierIdentificationGroupCode": "A39",
+                    "carrierIdentificationDSIGNGroupCode": "A39"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WSETTM07SettlementContainers": [
+          {
+            "settlementCurrencyISOCode": "CAD",
+            "settlementCurrencyILUCode": "C$",
+            "brokerCodeShort": "775",
+            "M02RecordsNumberPerCurrencyAndBroker": "28",
+            "centralSettlementCashAmountTotal": "0",
+            "centralSettlementDeferredAmountTotal": "611492.66",
+            "centralSettlementReserveReleaseAmountTotal": "0",
+            "centralSettlementTTYStatementAmountTotal": "0",
+            "centralSettlementClaimAmountTotal": "-101",
+            "nonCentralSettlementCashAmountTotal": "0",
+            "nonCentralSettlementDeferredAmountTotal": "0",
+            "nonCentralSettlementReserveReleaseAmountTotal": "0",
+            "nonCentralSettlementTTYStatementAmountTotal": "0",
+            "nonCentralSettlementClaimAmountTotal": "0",
+            "brokerCode": "A775",
+            "carrierIdentificationCode": "A39",
+            "carrierIdentificationDSIGNGroupCode": "A39",
+            "WSETTM02Array": [
+              {
+                "carrierIdentificationCode": "A3904",
+                "carrierReference": "P0AEWEX21A0V",
+                "carrierShortName": "COMPY RE CAN",
+                "brokerShortCode": "775",
+                "brokerReference": "TL168221",
+                "brokerShortName": "BROKER A LIMITED",
+                "settlementCurrencyILUCode": "C$",
+                "settlementCurrencyISOCode": "CAD",
+                "policySigningAccountingOfficeNumber": "P2102190060576",
+                "entryType": "PM",
+                "carriersProportionAmountOriginalCurrency": "11687.5",
+                "carriersProportionAmountSettlementCurrency": "11687.5",
+                "defferedPaymentIndicator": "D",
+                "settledInOriginalCurrencyIndicator": "Y",
+                "originalCurrencyILUCode": "CAD",
+                "originalCurrencyISOCode": "CAD",
+                "centralSettlementIndicator": "Y",
+                "settlementActualPaymentDate": "2021-08-21",
+                "settlementPeriodStartDate": "2021-07-21",
+                "settlementPeriodEndDate": "2021-07-21",
+                "carrierSecondaryReference": "noExample1234",
+                "nettInstalmentDateOn": "2021-07-31",
+                "brokerSecondaryReference": "184778860002",
+                "brokerCode": "A775",
+                "carrierIdentificationGroupCode": "A39",
+                "carrierIdentificationDSIGNGroupCode": "A39"
+              }
+            ]
+          }
+        ],
+        "WSETTM02Array": [
+          {
+            "carrierIdentificationCode": "A3904",
+            "carrierReference": "P0AEWEX21A0V",
+            "carrierShortName": "COMPY RE CAN",
+            "brokerShortCode": "775",
+            "brokerReference": "TL168221",
+            "brokerShortName": "BROKER A LIMITED",
+            "settlementCurrencyILUCode": "C$",
+            "settlementCurrencyISOCode": "CAD",
+            "policySigningAccountingOfficeNumber": "P2102190060576",
+            "entryType": "PM",
+            "carriersProportionAmountOriginalCurrency": "11687.5",
+            "carriersProportionAmountSettlementCurrency": "11687.5",
+            "defferedPaymentIndicator": "D",
+            "settledInOriginalCurrencyIndicator": "Y",
+            "originalCurrencyILUCode": "CAD",
+            "originalCurrencyISOCode": "CAD",
+            "centralSettlementIndicator": "Y",
+            "settlementActualPaymentDate": "2021-08-21",
+            "settlementPeriodStartDate": "2021-07-21",
+            "settlementPeriodEndDate": "2021-07-21",
+            "carrierSecondaryReference": "noExample1234",
+            "nettInstalmentDateOn": "2021-07-31",
+            "brokerSecondaryReference": "184778860002",
+            "brokerCode": "A775",
+            "carrierIdentificationGroupCode": "A39",
+            "carrierIdentificationDSIGNGroupCode": "A39"
+          }
+        ]
+      },
+      "audit": {
+        "user": "svc99",
+        "at": "2021-03-03T08:24:51Z"
+      }
+    }
+  ]
+}

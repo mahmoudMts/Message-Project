@@ -1,0 +1,58 @@
+{
+  "interchangeHeaderUNB": {
+    "syntax": {
+      "syntaxVersionNumber": "2"
+    },
+    "interchangeSender": {
+      "senderIdentification": "GBLUW   .LPC001  ",
+      "reverseRoutingAddress": "LPC004"
+    },
+    "interchangeReceiver": {
+      "recipientIdentification": "GBAVI   .AVI001  "
+    },
+    "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+    "interchangeControlReference": "13",
+    "recipientReferencePassword": "ABCD123",
+    "applicationReference": "ILUCSB",
+    "processingPriorityCode": "X",
+    "acknowledgmentRequest": "1",
+    "comunicationAgreementID": "CANDE",
+    "testIndicator": "0"
+  },
+  "Settlement": [
+    {
+      "containerID": "IAJ Container Array",
+      "ILUCSBContainerArray": [
+        {
+          "companyAccountingCode": "3622",
+          "settlementRunNumber": "21129",
+          "actualPaymentDate": "2022-04-05",
+          "ILUCSBCurrencySettlementTotalArray": [
+            {
+              "settlementCurrencyCode": "GBP",
+              "currencyTotalForSettlement": "-123.33",
+              "ILUCSBBrokerBusinessBalanceArray": [
+                {
+                  "brokerCode": "328",
+                  "businessCategory": "1",
+                  "brokerBusinessBalanceAmount": "-123.33",
+                  "ILUCSBInstalmentDetailsArray": [
+                    {
+                      "iluReference": "APH210051322704",
+                      "companyCode": "362201",
+                      "companyReference": "CD0814B21QAA",
+                      "instalmentCode": "C",
+                      "instalmentNumber": "1",
+                      "nettPremiumClaim": "-123.33",
+                      "settlementDueDate": "2022-04-05"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

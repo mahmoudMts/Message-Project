@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="LOGS" value="./logs"/>
+
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{dd-MM-yyyy HH:mm:ss.SSS} %green([%thread]) %cyan(%replace({%X{correlationId}}){'\{\}', ''}) %cyan(%replace([%X{username}]){'\[\]', ''}) %highlight(%-5level) %logger{15}.%M - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <logger name="com.lm" level="debug">
+        <appender-ref ref="Console"/>
+    </logger>
+
+</configuration>

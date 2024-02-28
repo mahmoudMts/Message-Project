@@ -1,0 +1,252 @@
+{
+    "interchangeHeaderUNB": {
+      "syntax": {
+        "syntaxVersionNumber": "2"
+      },
+      "interchangeSender": {
+        "senderIdentification": "GBLUW   .LPC001  ",
+        "reverseRoutingAddress": "LPC004"
+      },
+      "interchangeReceiver": {
+        "recipientIdentification": "GBAVI   .AVI001  "
+      },
+      "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+      "interchangeControlReference": "13",
+      "recipientReferencePassword": "ABCD123",
+      "applicationReference": "ILUCSB",
+      "processingPriorityCode": "X",
+      "acknowledgmentRequest": "1",
+      "comunicationAgreementID": "CANDE",
+      "testIndicator": "0"
+    },
+    "messagePayload": [
+      {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "claimHeaderDetails": {
+          "uniqueClaimReference": "B1526000255601601",
+          "uniqueTransactionReference": "B152626394",
+          "transactionType": "2",
+          "transactionTypeQualifier": "1",
+          "transactionSubtype": "8",
+          "transactionValidationResponse": "6",
+          "typeOfClaim": "1",
+          "partialCollectionIndicator": "Y",
+          "uniqueMarketReference": "B1526CSINT1600008",
+          "electronicClaimfileIND": "Y",
+          "numberOfOutstandingResponses": "1",
+          "previouslyAdvisedNetworkIndicator": "N",
+          "contractualAgreementCode": "S",
+          "cedantInLiquidationInd": "Y",
+          "associatedClaimReference": "C12345678901234567",
+          "associatedTransactionReference": "T98765432109876543",
+          "confidentialityInd": "Y",
+          "claimSequenceNumber": "013"
+        },
+        "group1Containers": [
+          {
+            "nameAndAddressDetails": {
+              "partyQualifier": "BK",
+              "partyIdentification": " 123",
+              "partyName": "MMAINTENANCE TEC"
+            },
+            "referenceDetailsArray": [
+              {
+                "referenceQualifier": "BK1",
+                "referenceNumber": "REF987654321",
+                "lineNumber": "123456"
+              }
+            ],
+            "contactDetails": {
+              "contactFunctionCode": "BK",
+              "deptOrEmployee": "Amsterdam",
+              "communicationNumber": "012345 770123"
+            }
+          }
+        ],
+        "group2Containers": {
+          "claimRiskDetail": {
+            "insured": "XYZ Insurance Ltd",
+            "reinsured": "XYZ Insurance Ltd",
+            "originalInsured": "ABC Insurance Agency Ltd",
+            "interest": "Insurance Policy",
+            "perilsConditions": "Insurance Policy",
+            "locationVoyage": "Insurance Policy",
+            "slipOrderNonStandard": "Y",
+            "slipOrder1": "123.456789",
+            "slipOrder2": "123.456789",
+            "reinsuranceExcessOfLossAggregateBasis": "L",
+            "brokerPolicyReference1": "J8mP4nC9kR2s",
+            "brokerPolicyReference2": "J8mP4nC9kR2s"
+          },
+          "amountDetailsArray": [
+            {
+              "amountType": "16",
+              "amountForItem": "23.23",
+              "amountCurrencyCode": "CAD",
+              "amountQualifier": "16"
+            }
+          ]
+        },
+        "claimDetails": {
+          "lossLocation": "UNITED KINGDOM",
+          "lossName": "string",
+          "vesselAircraft": "string",
+          "majorCasualtyRelatedEventCode": "stri",
+          "propertyClaimsServicesCode": "stri",
+          "claimant": "ABC Insurance Company",
+          "claimTypeCode": "HUL",
+          "yearOfAccount": "2016",
+          "originalPolicyClaimReference": "string"
+        },
+        "dateTimeDetailsArray": [
+          {
+            "dateTimeQualifier": "1",
+            "dateCoded": "2022-04-05",
+            "time": "1230",
+            "timeZoneSpecifierCode": "EST"
+          }
+        ],
+        "group3Containers": [
+          {
+            "currencyDetails": {
+              "currencyCodeReference": "USD",
+              "currencyQualifierReference": "NCR",
+              "targetCurrencyCode": "GBP",
+              "targetCurrencyQualifier": "NCR",
+              "rateOfExchange": "9999999.99549"
+            },
+            "amountDetails": {
+              "amountType": "16",
+              "amountForItem": "23.23",
+              "amountCurrencyCode": "CAD",
+              "amountQualifier": "16"
+            }
+          }
+        ],
+        "freeTextArray": [
+          {
+            "textSubjectCode": "1",
+            "textFunctionCode": "AB",
+            "freeTextCoded": "XYZ",
+            "codeListIdentifier": "12",
+            "freeText": {
+              "freeTextInformation1": "MATTER1",
+              "freeTextInformation2": "MATTER2",
+              "freeTextInformation3": "MATTER3",
+              "freeTextInformation4": "MATTER4",
+              "freeTextInformation5": "MATTER5"
+            }
+          }
+        ],
+        "group6Containers": {
+          "freeTextArray": [
+            {
+              "textSubjectCode": "1",
+              "textFunctionCode": "AB",
+              "freeTextCoded": "XYZ",
+              "codeListIdentifier": "12",
+              "freeText": {
+                "freeTextInformation1": "MATTER1",
+                "freeTextInformation2": "MATTER2",
+                "freeTextInformation3": "MATTER3",
+                "freeTextInformation4": "MATTER4",
+                "freeTextInformation5": "MATTER5"
+              }
+            }
+          ]
+        },
+        "group7Containers": [
+          {
+            "SigningDetailsInformation": {
+              "originalBureauReference": "string",
+              "originalCurrencyCode": "str",
+              "settlementCurrencyCode": "str",
+              "signingClaimCashAmount": "123.456789",
+              "signingClaimLocAmount": "123.456789",
+              "signingReference": "P2102190060576",
+              "accountingType": "S"
+            },
+            "insuringMarketDetails": [
+              {
+                "InsuringMarketDetails": {
+                  "companySyndicateIdentification": "string",
+                  "companySyndicateSignedLine": "123.45",
+                  "companySyndicateReference": "00244209C00000",
+                  "companySyndicateSecondaryReference": "00244209C00000",
+                  "companySyndicatePositionNumber": "123",
+                  "companySyndicateConflictInterest": "s",
+                  "companySyndNonParticipantInd": "s",
+                  "companySyndicateCashLocInd": "L",
+                  "companySyndicateCashAmount": "12345.67",
+                  "companySyndicateLocAmount": "12345.67"
+                }
+              }
+            ]
+          }
+        ],
+        "letterOfCreditDetails": {
+          "locReference": "ABC1234",
+          "locDate": "2023-08-10"
+        },
+        "group8Containers": [
+          {
+            "bulkSettlementDetail": {
+              "uniqueClaimReference": "string",
+              "transactionReference": "string",
+              "lossDate": "2022-04-05",
+              "lossName": "Sample Loss",
+              "claimSequenceNumber": "str"
+            },
+            "group9Containers": [
+              {
+                "CurrencyDetails": {
+                  "currencyCodeReference": "USD",
+                  "currencyQualifierReference": "NCR",
+                  "targetCurrencyCode": "GBP",
+                  "targetCurrencyQualifier": "NCR",
+                  "rateOfExchange": "9999999.99549"
+                },
+                "AmountDetailsArray": [
+                  {
+                    "amountType": "16",
+                    "amountForItem": "23.23",
+                    "amountCurrencyCode": "CAD",
+                    "amountQualifier": "16"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "group10Containers": [
+          {
+            "claimItems": {
+              "claimItemQualifier": "COV",
+              "claimItemReference": "123",
+              "lossName": "string"
+            },
+            "group11Containers": [
+              {
+                "amountType": "16",
+                "amountForItem": "23.23",
+                "amountCurrencyCode": "CAD",
+                "amountQualifier": "16"
+              }
+            ],
+            "dateTimeDetailsArray": [
+              {
+                "dateTimeQualifier": "1",
+                "dateCoded": "2022-04-05",
+                "time": "1230",
+                "timeZoneSpecifierCode": "EST"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "audit": {
+      "user": "svc99",
+      "at": "2021-03-03T08:24:51Z"
+    }
+  }

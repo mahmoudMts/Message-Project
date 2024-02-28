@@ -1,0 +1,71 @@
+{
+  "interchangeHeaderUNB": {
+    "syntax": {
+      "syntaxVersionNumber": "2"
+    },
+    "interchangeSender": {
+      "senderIdentification": "GBLUW   .LPC001  ",
+      "reverseRoutingAddress": "LPC004"
+    },
+    "interchangeReceiver": {
+      "recipientIdentification": "GBAVI   .AVI001  "
+    },
+    "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+    "interchangeControlReference": "13",
+    "recipientReferencePassword": "ABCD123",
+    "applicationReference": "ILUCSB",
+    "processingPriorityCode": "X",
+    "acknowledgmentRequest": "1",
+    "comunicationAgreementID": "CANDE",
+    "testIndicator": "0"
+  },
+  "messagePayload": [
+    {
+      "headerdetails": {
+        "companySyndicateIdentification": "9876  ABC",
+        "reportDate": "2004-02-25"
+      },
+      "group1Array": [
+        {
+          "generalIndicatorArray": [
+            {
+              "itemStatusCode": "DEL",
+              "groupStatusCode": "A",
+              "lineStatusCode": "A"
+            }
+          ],
+          "nameAndAddressArray": [
+            {
+              "movementOriginator": "A",
+              "brokerNumber": "1234"
+            }
+          ],
+          "generalIndicator2Array": [
+            {
+              "aviationAuditCode": "AP",
+              "marineAuditCode": "AP",
+              "nonMarineAuditCode": "AP",
+              "riskCode": "A2",
+              "taxCode": "4S",
+              "treatyExcessofLossIndicator": "X",
+              "thirdPartyAmendmentIndicator": "1"
+            }
+          ],
+          "referencesArrayUW": {
+            "uniqueMarketReference": "B1526CSINT1600008",
+            "transactionReference": "B12345678901",
+            "lloydsItemNumber": "A1234",
+            "bureauSigningReference": "2021100717763",
+            "companySyndicateReference": "N40200621004",
+            "companySyndicateSecondaryReference": "N40200621004",
+            "bureauUniqueReference": "123456789098A",
+            "bureauUniqueReferenceVersion": "1A",
+            "groupReference": "N12345678900",
+            "lineNumber": "10"
+          },
+          "yearOfAccount": "2004"
+        }
+      ]
+    }
+  ]
+}

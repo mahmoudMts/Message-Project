@@ -1,0 +1,39 @@
+{
+    "recordCount": 1,
+    "totalCount": 1,
+    "signings": [
+        {
+            "premiumId": "ba717845-9d19-4843-bdfa-6ff2e7d96ee3",
+            "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+            "submissionStatus": "Signed",
+            "sectionNumber": 1,
+            "bureau": "LLOYDS",
+            "umr": "B1234POL123BB",
+            "workPackageRef": "ABCDEF123",
+            "riskCode": "1",
+            "premiumNarrative": "testOP",
+            "insuredName": "insured",
+            "transactionType": {
+                "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+                "typeOfTransactionType": "Premium"
+            },
+            "originalCurrency": {
+                "refTypeCurrencyId": "59e075e9-67b6-4c7e-985e-2fbfc0e05dec",
+                "typeOfCurrency": "CLF"
+            },
+            "settlementCurrency": {
+                "refTypeCurrencyId": "979c2843-addd-4601-88f7-c0f910d2eb8f",
+                "typeOfCurrency": "CAD"
+            },
+            "yearOfAccount": 2020,
+            "bsnd": "17489 09022024",
+            "csnd": "17489 09022024",
+            "brokerNumber": "4658",
+            "releaseFlag": "Cash",
+            "fromEnquiryFlag": true,
+            "premiumStatus": "SIGNED",
+            "premiumSource": "TechnicianPortal",
+            "netPremium": 1999.69
+        }
+    ]
+}

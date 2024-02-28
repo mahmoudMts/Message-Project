@@ -1,0 +1,248 @@
+{
+    "submission": {
+        "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+        "bureau": "LLOYDS",
+        "transactionType": {
+            "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+            "typeOfTransactionType": "Premium"
+        },
+        "grossAmount": 10000,
+        "umr": "B1234POL123BB",
+        "workPackageRef": "ABCDEF123",
+        "workflowSubmissionId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "classOfBusiness": "M",
+        "highValuePremium": true,
+        "contractClassification": "D",
+        "brokerName": "Bob Jones",
+        "brokerNumber": "4658",
+        "brokerPseudonym": "Jonny",
+        "brokerPhone": "020 7327 6666",
+        "brokerEmail": "bob.jones@dxc.com",
+        "status": "Signed",
+        "brokerPartyDomainId": "3ba4b9be-530f-4783-b746-7b1a125ae9bd",
+        "brokerMarketId": "73a86f3b-47fa-46c8-90b5-7eee4b307915",
+        "createdDate": "2024-02-09T09:53:22.459021872Z",
+        "lastUpdatedDate": "2024-02-09T09:57:34.810034812Z"
+    },
+    "sectionDetail": {
+        "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+        "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+        "contractDetails": {
+            "mrcType": "mrc",
+            "insuredName": "insured",
+            "policyPeriod": {
+                "from": "2020-01-10",
+                "to": "2022-03-15"
+            },
+            "interest": "interes"
+        },
+        "sectionNumber": 1,
+        "sectionTitle": "testOP",
+        "slip": {
+            "order1": 15
+        },
+        "perilsAndConditions": "string",
+        "sumInsured": [
+            {
+                "sumInsuredCurrency": {
+                    "refTypeCurrencyId": "c449e2b6-611f-4933-aa50-b06124099e90",
+                    "typeOfCurrency": "AFN"
+                },
+                "sumInsuredAmount": 10000,
+                "excessCurrency": {
+                    "refTypeCurrencyId": "c449e2b6-611f-4933-aa50-b06124099e90",
+                    "typeOfCurrency": "AFN"
+                },
+                "excessAmount": 1000
+            }
+        ],
+        "sumInsuredBasis": {
+            "refBasisId": "b2ca5947-4baa-4b47-905c-30f8216637fe",
+            "typeOfBasis": "710"
+        },
+        "excessBasis": {},
+        "locationVoyage": "location",
+        "directOrReinsFlag": "Direct",
+        "eeaRiskFlag": false,
+        "unsignedPolReport": false,
+        "riskCode": "1",
+        "adjustableIndicator": false,
+        "premiumPeriod": {},
+        "estPremIncome": {
+            "currency": {}
+        },
+        "totalDepPrem": {
+            "currency": {}
+        },
+        "totalMinPrem": {
+            "currency": {}
+        },
+        "adjustment": {},
+        "reinstatements": [
+            {
+                "reinstatementId": "5cb283c8-98fe-48e3-81f9-deb174fa7cb3",
+                "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d"
+            }
+        ],
+        "subjectivityIndicator": false,
+        "createdDate": "2024-02-09T09:53:22.549978726Z",
+        "lastUpdatedDate": "2024-02-09T09:55:05.368243057Z"
+    },
+    "premiumDetail": {
+        "premiumId": "ba717845-9d19-4843-bdfa-6ff2e7d96ee3",
+        "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+        "premiumNumber": 1,
+        "transactionType": {
+            "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+            "typeOfTransactionType": "Premium"
+        },
+        "premiumSource": "TechnicianPortal",
+        "premiumNarrative": "testOP",
+        "brokerRef1": "brokerRef1",
+        "countryOfOrigin": {
+            "refTypeCountryId": "c52d2025-9a9a-4b18-8b33-4cceb42e9a99",
+            "typeOfCountry": "DZ"
+        },
+        "stateCode": {},
+        "dtiCode": {
+            "refDTICodeId": "10de8a45-3ff1-4da9-995b-f868e0b9ee30",
+            "typeOfDTICode": "4"
+        },
+        "vatCode": {
+            "refTypeOfVatCode": "688cf98f-1dc0-43c9-b92b-a25221f5028f",
+            "typeOfVatCode": "704"
+        },
+        "qualCatCode": {
+            "refQualCatCodeId": "521ecc00-0651-4d12-b0ee-0583273e9d6d",
+            "typeOfQualCatCode": "F"
+        },
+        "sumInsuredMax": {
+            "currency": {
+                "refTypeCurrencyId": "5e1b80ee-90fc-437e-ac75-58dccd8c03c2",
+                "typeOfCurrency": "ALL"
+            },
+            "amount": 90000
+        },
+        "originalCurrency": {
+            "refTypeCurrencyId": "59e075e9-67b6-4c7e-985e-2fbfc0e05dec",
+            "typeOfCurrency": "CLF"
+        },
+        "bureauLinePercent": 90,
+        "grossPremium": 2000,
+        "grossPremiumPercent": 50,
+        "prem100pcnt": 100,
+        "deductions": {
+            "brokerage": 10,
+            "tax": 8,
+            "taxBasis": "Net",
+            "other": 10,
+            "otherBasis": "Net",
+            "total": 20,
+            "taxIndicator": false
+        },
+        "ukIPT": {
+            "rate": 5,
+            "taxablePremium": 10,
+            "amount": 30000
+        },
+        "overseasIPT": {
+            "amount": 40000
+        },
+        "exchangeRate": 90,
+        "settlementCurrency": {
+            "refTypeCurrencyId": "979c2843-addd-4601-88f7-c0f910d2eb8f",
+            "typeOfCurrency": "CAD"
+        },
+        "premiumNet": 1999.69,
+        "war": {
+            "code": {}
+        },
+        "fil": {
+            "code1": {
+                "refFilId": "4c2371ca-d194-4c2f-a648-44fa7ce1a343",
+                "typeOfFilCode": "AAA3"
+            },
+            "currency1": {},
+            "code2": {},
+            "currency2": {}
+        },
+        "trustFundCode": {
+            "refTrustFundId": "ba7a2ad0-ab6d-434d-821d-43b02bb96979",
+            "typeOfTrustFundCode": "CN"
+        },
+        "delink": {
+            "releaseFlag": "Cash"
+        },
+        "chargesIndicator": false,
+        "accountingType": "Non-Cash",
+        "brexitFlag": false,
+        "depositPremium": {},
+        "grossPremSplit": {},
+        "fireBrigade": {},
+        "aprp": {},
+        "revisedPolPeriod": {},
+        "revisedPremPeriod": {},
+        "revisedSlip": {},
+        "revisedSumInsured": {
+            "currency": {}
+        },
+        "legislationChild": {},
+        "createdDate": "2024-02-09T09:53:22.555024847Z",
+        "lastUpdatedDate": "2024-02-09T09:56:24.560795253Z"
+    },
+    "marketDetail": {
+        "marketId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+        "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+        "sectionId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+        "partialMarketFlag": false,
+        "marketTitle": "S1: testOP",
+        "bureauLinePercent": 10,
+        "yearOfAccount": 2020,
+        "sectionLead": "sectionLead",
+        "syndicates": [
+            {
+                "marketSyndicateId": "7a22d97c-15a7-4503-9009-09713104be3c",
+                "marketId": "947d8935-cfc3-4388-87f1-78d7e255806d",
+                "syndicatePseudonym": "pse",
+                "syndicatePercentage": 10,
+                "syndicateReference": "syndicateRef"
+            }
+        ],
+        "createdDate": "2024-02-09T09:53:22.549982647Z",
+        "lastUpdatedDate": "2024-02-09T09:57:08.805279055Z"
+    },
+    "signingRecord": {
+        "signingId": "1823d4e8-d7d4-411b-aded-49797116606e",
+        "submissionId": "24a407e7-dfdf-46ad-94f7-a20ade806f8c",
+        "createdDate": "2024-02-09T09:53:22.463921293Z",
+        "lastUpdatedDate": "2024-02-09T09:53:22.463922627Z",
+        "signingPremiums": [
+            {
+                "signingPremiumId": "41e6108d-1504-4888-b8dc-3ea15318da48",
+                "premiumId": "ba717845-9d19-4843-bdfa-6ff2e7d96ee3",
+                "sectionNumber": 1,
+                "riskCode": "1",
+                "premiumNarrative": "testOP",
+                "originalCurrency": {
+                    "refTypeCurrencyId": "59e075e9-67b6-4c7e-985e-2fbfc0e05dec",
+                    "typeOfCurrency": "CLF"
+                },
+                "premiumNet": 1999.69,
+                "transaction": {
+                    "refTypeOfTransactionTypeId": "e41ceeb2-cbe1-4565-8632-fe0bdcd1ac45",
+                    "typeOfTransactionType": "Premium"
+                },
+                "bsnd": "17489 09022024",
+                "csnd": "17489 09022024",
+                "csn": "17489",
+                "csd": "2024-02-09T09:57:34.790417576Z",
+                "csnVersion": 1,
+                "bsn": "17489",
+                "bsd": "2024-02-09T09:57:34.790417576Z",
+                "bsnVersion": 1,
+                "signingMessage": "Hardcoded signing via the patch API",
+                "recordStatusCode": "Active"
+            }
+        ]
+    }
+}

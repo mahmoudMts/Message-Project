@@ -1,0 +1,312 @@
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "interchangeHeaderUNB": {
+    "syntax": {
+      "syntaxVersionNumber": "2"
+    },
+    "interchangeSender": {
+      "senderIdentification": "GBLUW   .LPC001  ",
+      "reverseRoutingAddress": "LPC004"
+    },
+    "interchangeReceiver": {
+      "recipientIdentification": "GBAVI   .AVI001  "
+    },
+    "dateTimeOfPreparation": "2021-08-30T09:12:33.001Z",
+    "interchangeControlReference": "13",
+    "recipientReferencePassword": "ABCD123",
+    "applicationReference": "ILUCSB",
+    "processingPriorityCode": "X",
+    "acknowledgmentRequest": "1",
+    "comunicationAgreementID": "CANDE",
+    "testIndicator": "0"
+  },
+  "messagePayload": [
+    {
+      "beginningOfMessageBGM": {
+        "reportSequenceNumber": "12345678",
+        "usmUserNumber": "99999",
+        "endOfMonthIndicator": "0",
+        "processingYearOrMonth": "2023-08-10"
+      },
+      "detailSectionMessage": [
+        {
+          "referencesRffE1": {
+            "bureauSigningReference": "1998082286"
+          },
+          "nameAndAddressDetailContainerE2": [
+            {
+              "brokerNumber": "999",
+              "orginatingBrokerNumber": "999",
+              "brokerPseudonym": "ABC",
+              "originatingBrokerPseudonym": "ABC"
+            }
+          ],
+          "containerRffF2": [
+            {
+              "uniqueMarketReference": "B1338JITTEST03",
+              "brokerReference1": "e.g. for brokerReference-9876543210AB",
+              "brokerReference2": "e.g. for brokerReference-9876543210AB",
+              "uniqueClaimReference": "B9999TS9999999999",
+              "originatingClaimOfficeReference": "M870912345",
+              "outwardReinsuranceReference": "B9999TEST004H",
+              "riskSectionReference": "99",
+              "closingSectionReference": "999",
+              "uniqueTransactionReference": "B9999TESTTR999999",
+              "technicalAccountReference": "TREF99999",
+              "subAccountReference": "99",
+              "financialAccountReference": "FREF99999",
+              "associatedTechnicalAccountReference": "ASSOCTARF",
+              "associatedSubAccountReference": "99",
+              "associatedClosingSectionReference": "999"
+            }
+          ],
+          "piaG2Container": [
+            {
+              "lloydsProcessingCode": "NEW",
+              "entryType": "NPM",
+              "lloydsCentralAccountingCategoryCode": "4",
+              "lloydsCentralAccountingQualifyingCategoryCode": "P",
+              "lloydsAccountingType": "S",
+              "yearOfAccount": "1947",
+              "installmentType": "D",
+              "catastropheCode": "87J",
+              "bulkSettlementIndicator": "1",
+              "sourceSystemIndicator": "L",
+              "businessCategory": "PRD",
+              "paymentIndicator": "F",
+              "typeOfPaymentIndicator": "I",
+              "trustFundCode": "OL",
+              "countryOfRisk": "GB",
+              "countryOfOrigin": "US"
+            }
+          ],
+          "currencyCuxH2Detail": {
+            "settlementCurrencyCode": "GBP",
+            "closingCurrencyCode": "JPY",
+            "exchangeRate": 10
+          },
+          "dateTimeDtmI2Container": [
+            {
+              "processingDate": "2023-08-10",
+              "policyFromDate": "2023-08-10",
+              "policyToDate": "2023-08-10"
+            }
+          ],
+          "piaJ2Container": [
+            {
+              "lloydsFilMarketCode": "0A",
+              "lloydsMarineAuditCode": "A2",
+              "lloydsNonMarineAuditCode": "NM",
+              "lloydsAviationAuditCode": "AV",
+              "lloydsMarketType": "P",
+              "auditOrDtiCode": "8",
+              "lloydsAdjustableIndicator": "1",
+              "lloydsOcaContraIndicator": "1",
+              "claimsPayableAbroadIndicator": "1",
+              "attachmentIndicator": "1",
+              "riskCode": "2",
+              "filCode2": "USB1",
+              "filCode3": "NUA1"
+            }
+          ],
+          "proportionalInterestPinK2Container": [
+            {
+              "lloydsTotalLine": "34.456789",
+              "lloydsLineType": "1",
+              "brokerOrder1": 99.0000002,
+              "brokerOrder2": 99.0000002
+            }
+          ],
+          "deductionDedL2Details": {
+            "totalDiscount": 23.456789
+          },
+          "referenceRFFM2Container": [
+            {
+              "originalBureauSigningReference": "1989112822700",
+              "syndicateRIBrokerInformation": "21400 211188",
+              "rateOfExchangeOriginalBureauSigningReference": "1989030327456  ",
+              "dcfSiningReference": "1989030327456  ",
+              "bureauTreatyNumber": "123456789",
+              "lloydsTreatySerialNumber": "123",
+              "instalmentNumber": "1",
+              "instalmentSettlementDueDate": "2023-08-10"
+            }
+          ],
+          "txtN2details": {
+            "periodOfTransaction": "1ST QTR 1989"
+          },
+          "group2O2Container": [
+            {
+              "freeTextFtxO3Details": [
+                {
+                  "treatySectionReference": "A1",
+                  "lloydsNarrativeLineNumber": "F",
+                  "lloydsNarrativeLine1": "free text",
+                  "lloydsNarrativeLine2": "free text",
+                  "lloydsNarrativeLine3": "free text"
+                }
+              ],
+              "transactionAmountO2": {
+                "deferredBalanceBroughtForward": "-102.91",
+                "deferredBalanceCarriedForward": "-102.91",
+                "reserveBalanceBroughtForward": "-102.91",
+                "reserveBalanceCarriedForward": "-102.91",
+                "paymentReference": "A1",
+                "100PercentAmount": "-102.91"
+              }
+            }
+          ],
+          "dateTimeReferenceDtmP2Container": [
+            {
+              "settlementDueDate": "2022-08-22",
+              "termsOfTradeDate": "2022-08-22",
+              "plannedSettlementDate": "2022-08-22"
+            }
+          ],
+          "freeTextArrayFtxR2": [
+            {
+              "lloydsNarrativeLineNumber": "I",
+              "lloydsNarrativeLine1": "free text",
+              "lloydsNarrativeLine2": "free text",
+              "lloydsNarrativeLine3": "free text"
+            }
+          ],
+          "transactionAmountTraS2": {
+            "lossReserveInterestAmount": "-102.91"
+          },
+          "group3T2Container": [
+            {
+              "girT2": {
+                "lcoReference": "REFERENCE123",
+                "movementReference": "REF123",
+                "currencyKey": "3"
+              },
+              "transactionAmountT3": {
+                "amountPaidThisTime": "-102.91"
+              }
+            }
+          ],
+          "group4U2Container": [
+            {
+              "nameAndAddressDetailNadU2": {
+                "companySyndicateIdentification": "1234"
+              },
+              "referencesRffU3Container": [
+                {
+                  "syndicateLineNumber": "1",
+                  "companySyndicateReferences": "SYNDREFCEONE  ",
+                  "companySyndicateSecondaryReference": "SYNDREFCETWO   ",
+                  "systemLineReference": "LINREF",
+                  "collectionNoteReference": "TST45678999"
+                }
+              ],
+              "additionalIdPiaV3": {
+                "syndicateMarketCode": "M"
+              },
+              "proportionalInterestPinW3": {
+                "lloydsSyndicateSignedLine": "1234.456789"
+              },
+              "transactionAmountX3": {
+                "companySyndicateNettAmtInSettmntCurrency": "-102.91",
+                "companySyndicateNettWarAmountInSettCurren": "-102.91",
+                "syndicateVatAmount": "-102.91",
+                "syndicateBalanceOfCashAccount": "-102.91",
+                "syndicateLocOutStandingAmount": "-102.91",
+                "syndicateRiSyndicateCededToLloyd": "-102.91"
+              },
+              "dateTimeDtmY3Details": {
+                "actualPaymentDate": "2022-08-02"
+              },
+              "group5Y4Container": [
+                {
+                  "piaY5": {
+                    "lloydsCentralAccountingCategoryCode": "l",
+                    "lloydsCentralAccountingQualifyingCategoryCode": "B"
+                  },
+                  "transactiomAmountY4": {
+                    "treatySection": "A1",
+                    "companySyndicateNettAmountInSettlementCurrency": "-102.91",
+                    "companySyndicateNettWarPremiunInSettlementCurrency": "-102.91"
+                  }
+                }
+              ],
+              "group6Z4Container": [
+                {
+                  "dateTimeDtmZ4": {
+                    "actualPaymentDate": "2022-08-02"
+                  },
+                  "transactionAmount": {
+                    "instalmentNumber": "1",
+                    "companySyndicateNettInstalmentInSettmntCurrency": "-102.91"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Group7ContainerLevelXX1": [
+        {
+          "levelXX2NADDetails": {
+            "syndicateNumber": "3039"
+          },
+          "group12Container": [
+            {
+              "levelZZ3RFFDetails": {
+                "businessCategoryAndProcessingDay": "0101PRM"
+              },
+              "leveZZ4ControlCNTDetails": {
+                "transactionCount": "9",
+                "nettAmountDebitOrCash": "-678",
+                "nettAmountCredit": "800",
+                "vatTotal": "800",
+                "warAmount": "800",
+                "cededAmount": "800"
+              }
+            }
+          ],
+          "group8Container": [
+            {
+              "levelXX3DTMDetails": {
+                "lloydsProcessingDate": "2023-03-12"
+              },
+              "group9Container": [
+                {
+                  "levelXX4CUXDetails": {
+                    "settlementCurrencyCode": "GBP"
+                  },
+                  "group10Container": [
+                    {
+                      "levelXX5DTMDetails": {
+                        "actualPaymentDate": "2023-03-12"
+                      },
+                      "group11Container": [
+                        {
+                          "levelXX6PIADetails": {
+                            "businessCategory": "PRM"
+                          },
+                          "leveXX7ControlCNTDetails": {
+                            "transactionCount": "9",
+                            "nettAmountDebitOrCash": "-678",
+                            "nettAmountCredit": "800",
+                            "vatTotal": "800",
+                            "warAmount": "800",
+                            "cededAmount": "800"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "user": "svc99",
+    "at": "2021-03-03T08:24:51Z"
+  }
+}
